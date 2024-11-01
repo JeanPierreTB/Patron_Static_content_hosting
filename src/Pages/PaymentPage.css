@@ -1,0 +1,52 @@
+.payment-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .department-view {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .department-view img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .department-description {
+    flex: 1;
+    margin-top: 30px;
+  }
+  
+  .payment-methods {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .payment-icon {
+    cursor: pointer;
+    width: 70px; 
+    transition: transform 0.2s;
+  }
+  
+  .payment-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .back-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px; 
+  }
+
+  .back-button img {
+    width: 25px; 
+  }
